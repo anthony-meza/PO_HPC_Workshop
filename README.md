@@ -1,5 +1,5 @@
 # WHOI-PO-HPC
-This repository will contain all relevant information related to using parallel and distributed data analysis on the Poseidon cluster at the Woods Hole Oceanographic Institution (WHOI). This repository will specifically go over Dask, xarray and requesting resources on Poseidon and your local machine. Below is a README that I asked ChatGPT to generate for me, we can change it later but I was lazy. 
+This repository will contain all relevant information related to using parallel and distributed data analysis on the Poseidon cluster at the Woods Hole Oceanographic Institution (WHOI). This repository will specifically go over Dask, xarray and requesting resources on Poseidon and your local machine. 
 
 # Parallel and Distributed Computing on the Poseidon Cluster at WHOI
 
