@@ -12,19 +12,12 @@ Welcome to the repository for all relevant information related to using parallel
 
 ## Table of Contents
 
-- [Installing Miniforge](#Installing-miniforge)
+- [Installing Miniforge](#installing-miniforge)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Using Dask](#using-dask)
-- [Working with xarray](#working-with-xarray)
-- [Requesting Resources on Poseidon](#requesting-resources-on-poseidon)
-- [Setting Up Your Local Machine](#setting-up-your-local-machine)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
-## Installing-miniforge
+## Installing Miniforge on Poseidon
 
 ### Download
 
@@ -54,7 +47,7 @@ The versions listed as "System: 32-bit" are not compatible with the installers o
 
 `(***)` Apple silicon builds are experimental and haven't had testing like the other platforms.
 
-### Install
+### Installing mini
 
 #### Unix-like platforms (Mac OS & Linux)
 
@@ -75,7 +68,7 @@ Download and execute the Windows installer. Follow the prompts, taking note of t
 
 There are known issues with the usage of special characters and spaces in the installation location, see for example #484. We recommend users install in a directory without any such characters in the name.
 
-## Getting Started
+## Installing Started
 
 ### Prerequisites
 
