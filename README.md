@@ -12,7 +12,7 @@ Welcome to the repository for all relevant information related to using parallel
 
 ## Table of Contents
 
-- [Installing Miniforge](#Installing miniforge)
+- [Installing Miniforge](#Installing-miniforge)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -24,7 +24,7 @@ Welcome to the repository for all relevant information related to using parallel
 - [License](#license)
 - [Contact](#contact)
 
-## Installing miniforge
+## Installing-miniforge
 
 ## Download
 
