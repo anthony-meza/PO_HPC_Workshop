@@ -12,7 +12,7 @@ Welcome to the repository for all relevant information related to using parallel
 
 ## Table of Contents
 
-- [Installing Miniforge](#installing-miniforge)
+- [Installing Miniforge](#installing-miniforge-on-poseidon)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
