@@ -1,7 +1,0 @@
-dask[distributed]
-xarray
-numpy
-pandas
-scipy
-matplotlib
-netCDF4
