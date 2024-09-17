@@ -51,3 +51,12 @@ source ~/.bash_profile
 `
 mamba
 `
+
+## Spinning up a Jupyter notebook 
+To make sure you're able to start a Jupyter notebook from Poseidon and then access the remote server through ssh tunneling, follow these steps:
+
+1. ssh into Poseidon, copy the script `run_jupyter_on_poseidon.sh` to your home directory, change `--mail-user=user@whoi.edu` to your email, and run `sbatch run_jupyter_on_poseidon.sh` on the command line
+2. Check the output from this script, which is piped to `log-jupyter-{jobid}.log`. You can check the job ID by running `mj` (short for my job) to see what jobs of yours are in the queue. Any errors will also be sent to this log.
+3. Copy the line that has a format like `ssh -N -f -L remote-port:remote server:remote-port user@poseidon.whoi.edu`, which show the port the server is running on, and the node it is using on Poseidon. Paste it into a new terminal window on your local machine and run. (See [this screenshot](https://github.com/anthony-meza/WHOI-PO-HPC/blob/official_pilot_workshop/jupyter_screenshot.jpg) for more details.)
+4. In a browser, type `localhost:remote-port` (substituting in the actual port number) and your notebook should pop up!
+
