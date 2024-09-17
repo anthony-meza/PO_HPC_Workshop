@@ -28,11 +28,10 @@ SSHlogin: $user
 SSH port: 22
 Use a Browser on your local machine to go to: localhost:${port} (prefix w/ https:// if using password) "
 # load modules or conda environments here
-# uncomment the two lines below to use your conda environment called notebook_env.
-# Alternatively, activate your desired environment in the command line before you run this # script.
+# uncomment the two lines below to use your conda environment called hpc_tutorial.
 
 source ~/.bash_profile
-conda activate env
+conda activate hpc_tutorial
 # DON'T USE ADDRESS BELOW.
 # DO USE TOKEN BELOW
 jupyter-lab --no-browser --port=${port} --ip=${node}
