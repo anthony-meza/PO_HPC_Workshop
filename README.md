@@ -26,11 +26,11 @@ Welcome to the repository for all relevant information related to using parallel
 
 ## Installing-miniforge
 
-## Download
+### Download
 
 Miniforge installers are available here: https://github.com/conda-forge/miniforge/releases
 
-#### Miniforge3
+### Miniforge3
 
 Latest installers with Python 3.10 `(*)` in the base environment:
 
@@ -54,9 +54,9 @@ The versions listed as "System: 32-bit" are not compatible with the installers o
 
 `(***)` Apple silicon builds are experimental and haven't had testing like the other platforms.
 
-## Install
+### Install
 
-### Unix-like platforms (Mac OS & Linux)
+#### Unix-like platforms (Mac OS & Linux)
 
 Download the installer using curl or wget or your favorite program and run the script.
 For eg:
@@ -69,7 +69,7 @@ or
     wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
     bash Miniforge3-$(uname)-$(uname -m).sh
 
-### Windows
+#### Windows
 
 Download and execute the Windows installer. Follow the prompts, taking note of the options to "Create start menu shortcuts" and "Add Miniforge3 to my PATH environment variable". The latter is not selected by default due to potential conflicts with other software. Without Miniforge3 on the path, the most convenient way to use the installed software (such as commands conda and mamba) will be via the "Miniforge Prompt" installed to the start menu.
 
