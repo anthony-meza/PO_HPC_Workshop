@@ -19,6 +19,18 @@ Welcome to the repository for all relevant information related to using parallel
 
 ## Installing Miniforge on Poseidon
 We have already created a script for you which install ``micromamba`` and installs the packages necessary to participate in the workshop. 
+To download the script, log in to Poseidon from Terminal (if using Mac/Linux) or Powershell (Windows)
+
+`
+ssh -XY username@poseidon.whoi.edu
+`
+
+Once logged in, confirm you are in your home directory 
+
+`cd ~
+`
+
+Next, download the Miniforge script
 
 `
 wget https://github.com/anthony-meza/WHOI-PO-HPC/blob/main/poseidon_setup.sh
