@@ -44,8 +44,8 @@ sh poseidon_setup.sh
 
 To check whether your installation succesfully run 
 
-`
+``
 source ~/.bash_profile
 
 mamba
-`
+``
