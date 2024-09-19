@@ -1,15 +1,25 @@
-# WHOI-PO-HPC
+# WHOI Physical Oceanography Poseidon Workshop
 This repository will contain all relevant information related to using parallel and distributed data analysis on the Poseidon cluster at the Woods Hole Oceanographic Institution (WHOI). This repository will specifically go over Dask, xarray and requesting resources on Poseidon and your local machine. 
 
-Our syllabus can be found here: https://docs.google.com/document/d/1vHl_ZYNNWhaYK6h4Y93NFcOhk0zmLGbmzrVpsnM5Zi8/edit?usp=sharing
-# Parallel and Distributed Computing on the Poseidon Cluster at WHOI
+The workshop will be held on October 3rd, 2024 and will be co-taught by Katy Abbott and Anthony Meza. 
 
-Welcome to the repository for all relevant information related to using parallel and distributed computing on the Poseidon cluster at the Woods Hole Oceanographic Institution (WHOI). This repository will specifically cover the following topics:
+The workshop schedule can be found here: https://docs.google.com/document/d/1vHl_ZYNNWhaYK6h4Y93NFcOhk0zmLGbmzrVpsnM5Zi8/edit?usp=sharing
+
+
+# Workshop Overview, Goals and Prerequisites: 
+
+This workshop assumes knowledge of some basic programming concepts including variable declaration, boolean operators, loops, lists, dictionaries, conditionals and functions. This workshop will use **Python**. If you need to brush up on any of these concepts in Python, the WHOI Python Carpentries workshop website is a good place to start. 
+
+The goal of this workshop will be to provide attendees with an introduction to plotting and processing geophysical data stored in tabular (e.g. CSVs) or hierarchical (e.g. NetCDFs) formats. In particular, we will cover: 
 
 - Using Dask for parallel computing
 - Leveraging xarray for handling multi-dimensional arrays
 - Requesting resources on the Poseidon cluster
 - Setting up your local machine for compatibility with Poseidon
+
+# Why Python for distributed competing? 
+Python is not the only language that provides distributed computing tools. However, based on our experience Python has the most mature and accessible tools for big data exploration and visualization _in the climate sciences_. Other languages such as MATLAB, Julia, and R offer similar tools to process geospatial data, but none are as complete as those in Python. Many scientific analysis codes are now being written exclusively in Python so we hope that understanding the basic functions that make up these codes will be worthwhile!
+
 
 ## Table of Contents
 
