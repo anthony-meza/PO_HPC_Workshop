@@ -24,9 +24,7 @@ Python is not the only language that provides distributed computing tools. Howev
 # Workshop prerequisites
 
 - [Installing Miniforge On Poseidon](#installing-miniforge-on-poseidon)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+- [Spinning up a Jupyter notebook ](#spinning-up-a-jupyter-notebook)
 
 ## Installing Miniforge on Poseidon
 We have already created a script for you which install ``micromamba`` and installs the packages necessary to participate in the workshop. 
