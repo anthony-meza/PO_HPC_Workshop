@@ -21,7 +21,7 @@ The goal of this workshop will be to provide attendees with an introduction to p
 Python is not the only language that provides distributed computing tools. However, based on our experience Python has the most mature and accessible tools for big data exploration and visualization _in the climate sciences_. Other languages such as MATLAB, Julia, and R offer similar tools to process geospatial data, but none are as complete as those in Python. Many scientific analysis codes are now being written exclusively in Python so we hope that understanding the basic functions that make up these codes will be worthwhile!
 
 
-## Table of Contents
+# Workshop prerequisites
 
 - [Installing Miniforge On Poseidon](#installing-miniforge-on-poseidon)
 - [Getting Started](#getting-started)
