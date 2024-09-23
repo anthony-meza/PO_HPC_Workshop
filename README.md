@@ -5,7 +5,7 @@ The workshop will be held on October 3rd, 2024 and will be co-taught by Katy Abb
 
 The workshop schedule can be found here: https://docs.google.com/document/d/1vHl_ZYNNWhaYK6h4Y93NFcOhk0zmLGbmzrVpsnM5Zi8/edit?usp=sharing
 
-
+Our slides can be found here: https://docs.google.com/presentation/d/18fEL94cLxcA-prOxSrREmxWVYxIGuB8MrO2ymTiV2Sc/edit?usp=sharing
 # Workshop Overview, Goals and Prerequisites: 
 
 This workshop assumes knowledge of some basic programming concepts including variable declaration, boolean operators, loops, lists, dictionaries, conditionals and functions. This workshop will use **Python**. If you need to brush up on any of these concepts in Python, the WHOI Python Carpentries workshop website is a good place to start. 
