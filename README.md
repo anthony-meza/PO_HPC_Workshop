@@ -42,7 +42,7 @@ Once logged in, confirm you are in your home directory
 Next, download the Miniforge script
 
 `
-wget https://github.com/anthony-meza/WHOI-PO-HPC/blob/main/poseidon_setup.sh
+wget https://raw.githubusercontent.com/anthony-meza/WHOI-PO-HPC/refs/heads/official_pilot_workshop/poseidon_setup.sh
 `
 
 Finally, to initialize the installation type the following command
