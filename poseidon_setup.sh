@@ -14,6 +14,8 @@ mamba install -y -c conda-forge numpy pandas ipykernel pip-tools fastapi jupyter
                     copernicusmarine jupyter-resource-usage dask netCDF4 bottleneck \
                     xarray nodejs dask-labextension xesmf cmocean xhistogram scipy \
                     cartopy gsw geopy dask-jobqueue 
+                    
+mamba install -y -c jupyter 
 
 #Step 4: Add environment to Jupyter kernel
 python -m ipykernel install --user --name hpc_tutorial --display-name hpc_tutorial
