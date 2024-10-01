@@ -4,7 +4,7 @@ curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mi
 bash Miniforge3-$(uname)-$(uname -m).sh
 
 #Step 1: Create Environment 
-mamba create -n hpc_tutorial python=3.12
+mamba create -n hpc_tutorial
 
 #Step 2: Activate Environment 
 mamba activate hpc_tutorial
