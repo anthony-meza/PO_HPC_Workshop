@@ -3,6 +3,8 @@
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 bash Miniforge3-$(uname)-$(uname -m).sh
 
+source ~/.bash_profile 
+
 #Step 1: Create Environment 
 mamba create -n hpc_tutorial
 
