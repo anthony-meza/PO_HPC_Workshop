@@ -69,11 +69,11 @@ To make sure you're able to start a Jupyter notebook from Poseidon and then acce
 1. ssh into Poseidon, copy the script `run_jupyter_on_poseidon.sh` to your home directory, change `--mail-user=user@whoi.edu` to your email, and run `sbatch run_jupyter_on_poseidon.sh` on the command line
 2. Check the output from this script, which is piped to `log-jupyter-{jobid}.log`. You can check the job ID by running `mj` (short for my job) to see what jobs of yours are in the queue. Any errors will also be sent to this log.
 3. Copy the line that has a format like `ssh -N -f -L remote-port:remote server:remote-port user@poseidon.whoi.edu`, which show the port the server is running on, and the node it is using on Poseidon. Paste it into a new terminal window on your local machine and run. (See [this screenshot](https://github.com/anthony-meza/WHOI-PO-HPC/blob/official_pilot_workshop/figures/jupyter_screenshot.jpg) for more details.)
-4. Locate the url in the file `log-jupyter-{jobid}.log` that begins with "http://127.0.0.1:remote-port....". Copy this url and paste it into a browser and your notebook should pop up!
+4. Locate the url in the file `log-jupyter-{jobid}.log` that begins with ``http://127.0.0.1:remote-port....``. Copy this url and paste it into a browser and your notebook should pop up!
 
 ### On Windows 
 1. Download and install [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 1. ssh into Poseidon, copy the script `run_jupyter_on_poseidon.sh` to your home directory, change `--mail-user=user@whoi.edu` to your email, and run `sbatch run_jupyter_on_poseidon.sh` on the command line
 2. Check the output from this script, which is piped to `log-jupyter-{jobid}.log`. You can check the job ID by running `mj` (short for my job) to see what jobs of yours are in the queue. Any errors will also be sent to this log.
-3. Use the information from the log output to create a VPN tunnel with Putty (See [this screenshot](https://github.com/anthony-meza/WHOI-PO-HPC/blob/official_pilot_workshop/figures/jupyter_screenshot.jpg) for more details.)
-4. Locate the url in the file `log-jupyter-{jobid}.log` that begins with "http://127.0.0.1:remote-port....". Copy this url and paste it into a browser and your notebook should pop up!
+3. Use the information from the log output to create a VPN tunnel with Putty (See [this screenshot](https://github.com/anthony-meza/WHOI-PO-HPC/blob/official_pilot_workshop/figures/jupyter_windows_screenshot.jpg) for more details.)
+4. Locate the url in the file `log-jupyter-{jobid}.log` that begins with ``http://127.0.0.1:remote-port....``. Copy this url and paste it into a browser and your notebook should pop up!
