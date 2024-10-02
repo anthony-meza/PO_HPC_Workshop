@@ -1,11 +1,11 @@
 #!/bin/bash
 #SBATCH --partition=compute
 #SBATCH --mail-type=END
-#SBATCH --mail-user=user@whoi.edu
+#SBATCH --mail-user=anthony.meza@whoi.edu
 #SBATCH --ntasks=1
-#SBATCH --mem=5gb
-#SBATCH --time=00:05:00
-#SBATCH --job-name jupyter
+#SBATCH --mem=25gb
+#SBATCH --time=00:25:00
+#SBATCH --job-name=jupyter
 #SBATCH --output=log-jupyter-%j.log
 
 # get tunneling info
@@ -34,4 +34,4 @@ source ~/.bash_profile
 conda activate hpc_tutorial
 # DON'T USE ADDRESS BELOW.
 # DO USE TOKEN BELOW
-jupyter-lab --no-browser --port=${port} --ip=${node}
+jupyter lab --no-browser --port=${port} --ip=${node}
