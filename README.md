@@ -61,7 +61,9 @@ source ~/.bash_profile
 mamba
 `
 
-## Spinning up a Jupyter notebook 
+## Running a Jupyter notebook remotely
+
+Running a Jupyter notebook on Poseidon requires you to create an SSH tunnel from Poseidon to your personal computer. Instructions depend on whether you're using Mac/Linux or Windows. Below are instructions for both. 
 
 ### On Mac/Linux
 To make sure you're able to start a Jupyter notebook from Poseidon and then access the remote server through ssh tunneling, follow these steps:
