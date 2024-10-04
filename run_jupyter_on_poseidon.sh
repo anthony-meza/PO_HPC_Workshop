@@ -3,8 +3,8 @@
 #SBATCH --mail-type=END
 #SBATCH --mail-user=anthony.meza@whoi.edu
 #SBATCH --ntasks=1
-#SBATCH --mem=25gb
-#SBATCH --time=00:25:00
+#SBATCH --mem=10gb
+#SBATCH --time=00:45:00
 #SBATCH --job-name=jupyter
 #SBATCH --output=log-jupyter-%j.log
 

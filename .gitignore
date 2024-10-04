@@ -1,4 +1,6 @@
-
+.ipynb_checkpoints
+*.gif
+*.mp4
 *.out
 *.log
 .DS_Store
