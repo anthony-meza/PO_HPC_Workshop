@@ -6,7 +6,7 @@ The workshop will be held on October 3rd, 2024 and will be co-taught by Katy Abb
 The workshop schedule can be found here: https://docs.google.com/document/d/1vHl_ZYNNWhaYK6h4Y93NFcOhk0zmLGbmzrVpsnM5Zi8/edit?usp=sharing
 
 Our slides can be found here: https://docs.google.com/presentation/d/18fEL94cLxcA-prOxSrREmxWVYxIGuB8MrO2ymTiV2Sc/edit?usp=sharing
-# Workshop Overview, Goals and Prerequisites: 
+## Workshop Overview, Goals and Prerequisites: 
 
 This workshop assumes knowledge of some basic programming concepts including variable declaration, boolean operators, loops, lists, dictionaries, conditionals and functions. This workshop will use **Python**. If you need to brush up on any of these concepts in Python, the WHOI Python Carpentries workshop website is a good place to start. 
 
@@ -17,7 +17,7 @@ The goal of this workshop will be to provide attendees with an introduction to p
 - Requesting resources on the Poseidon cluster
 - Setting up your local machine for compatibility with Poseidon
 
-# Why Python for distributed competing? 
+### Why Python for distributed competing? 
 Python is not the only language that provides distributed computing tools. However, based on our experience Python has the most mature and accessible tools for big data exploration and visualization _in the climate sciences_. Other languages such as MATLAB, Julia, and R offer similar tools to process geospatial data, but none are as complete as those in Python. Many scientific analysis codes are now being written exclusively in Python so we hope that understanding the basic functions that make up these codes will be worthwhile!
 
 
