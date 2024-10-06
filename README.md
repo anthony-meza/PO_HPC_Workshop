@@ -24,7 +24,7 @@ Python is not the only language that provides distributed computing tools. Howev
 # Table of Contents
 
 1. [Installing Miniforge On Poseidon](#installing-miniforge-on-poseidon)
-2. [Spinning up a Jupyter notebook ](#spinning-up-a-jupyter-notebook)
+2. [Spinning up a Jupyter notebook ](#running-a-remote-jupyter-notebook)
 
 ## Installing Miniforge on Poseidon
 We have already created a script for you which installs ``micromamba`` and the packages necessary to participate in the workshop. 
@@ -61,7 +61,7 @@ source ~/.bash_profile
 mamba
 `
 
-## Running a Jupyter notebook remotely
+## Running a remote Jupyter notebook
 
 Running a Jupyter notebook on Poseidon requires you to create an SSH tunnel from Poseidon to your personal computer. Instructions depend on whether you're using Mac/Linux or Windows. Below are instructions for both. 
 
