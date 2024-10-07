@@ -21,6 +21,7 @@
 - [Useful terminology](https://hpcc.umd.edu/hpcc/help/glossary.html)
 - [Globus is a file-transfer that's great for big data; WHOI and MIT both offer free institutional accounts](https://www.globus.org)
 - [15 quick tips for success w/ HPC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8341507/)
+- [Use an SSH key to log into Poseidon instead of entering your password every time](https://hpc-wiki.info/hpc/Ssh_keys)
 
 #### Xarray and Dask
 - **Online course notes**
