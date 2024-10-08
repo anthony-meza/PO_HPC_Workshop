@@ -1,4 +1,5 @@
 #!/bin/bash
+#run this file in your terminal using "sh poseidon_setup.sh"
 
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 bash Miniforge3-$(uname)-$(uname -m).sh
@@ -22,5 +23,7 @@ mamba install -y jupyter
 #Step 4: Add environment to Jupyter kernel
 python -m ipykernel install --user --name hpc_tutorial --display-name hpc_tutorial
 
-#Step 5: Fix Dask Dashboard ports
-sed -i 's|link: "/proxy/8787/status"|link: "/proxy/{port}/status"|' ~/.config/dask/jobqueue.yaml 
+#Step 5: generate a Dask config file 
+python -c "import dask_jobqueue"
+
+#Step 6: Add custom configuration file for dask dashboard tunneling
