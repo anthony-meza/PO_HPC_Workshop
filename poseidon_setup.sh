@@ -27,3 +27,10 @@ python -m ipykernel install --user --name hpc_tutorial --display-name hpc_tutori
 python -c "import dask_jobqueue"
 
 #Step 6: Add custom configuration file for dask dashboard tunneling
+# We are creating a new file per Dask's recommendations (see https://jobqueue.dask.org/en/latest/clusters-configuration-setup.html)
+cd ~/.config/dask
+wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/anthony-meza/WHOI-PO-HPC/refs/heads/official_pilot_workshop/distributed_dashboard.yaml
+wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/anthony-meza/WHOI-PO-HPC/refs/heads/official_pilot_workshop/template.yaml
+cd ~
+
+
