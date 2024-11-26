@@ -1,5 +1,5 @@
 # WHOI Physical Oceanography Poseidon Workshop
-This repository will contain all relevant information related to using parallel and distributed data analysis on the Poseidon cluster at the Woods Hole Oceanographic Institution (WHOI). This repository will specifically go over Dask, xarray and requesting resources on Poseidon and your local machine. 
+This repository will contain all relevant information related to using parallel and distributed data analysis on the Poseidon @ WHOI (Woods Hole Oceanographic Institution). This repository will specifically go over Dask, xarray and requesting resources on Poseidon and your local machine. 
 
 The workshop will be held on October 3rd, 2024 and will be co-taught by Katy Abbott and Anthony Meza. 
 
