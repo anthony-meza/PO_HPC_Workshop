@@ -1,10 +1,27 @@
 #!/bin/bash
 
-#use this code to make it so that you never have to enter your password into poseidon again 
-# this code only works on unix based systems (i.e. Linux or MacOS)
+# Define your username
+username=anthony.meza
 
-username=anthony.meza #define username
+# Define a list of remote servers
+servers=(
+    "ilko.whoi.edu"
+    "poseidon.whoi.edu"
+)
 
-ssh-keygen #generate private keys 
+# Generate SSH keys if they don't already exist
+if [ ! -f ~/.ssh/id_rsa ]; then
+    echo "Generating SSH key..."
+    ssh-keygen -t rsa -b 4096 -C "$username" -N "" -f ~/.ssh/id_rsa
+else
+    echo "SSH key already exists. Skipping key generation."
+fi
 
-ssh-copy-id $username@ilko.whoi.edu #copy keys to remote server
+# Copy the SSH key to each server
+for server in "${servers[@]}"; do
+    echo "Copying SSH key to $server..."
+    ssh-copy-id "$username@$server"
+done
+
+echo "SSH key setup complete for all servers."
+
