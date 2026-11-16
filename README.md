@@ -67,9 +67,13 @@ Running a Jupyter notebook on Hydra requires you to create an SSH tunnel from Hy
 
 ### On Mac/Linux
 To make sure you're able to start a Jupyter notebook from Hydra and then access the remote server through ssh tunneling, follow these steps:
+0. BE SURE that the RIGHT CONDA ENVIRONMENT is ACTIVATED.
 
 1. ssh into Hydra, copy the script `run_jupyter_on_whoi_hpc.sh` to your home directory, change `--mail-user=user@whoi.edu` to your email, and run `sbatch run_jupyter_on_whoi_hpc.sh` on the command line
 2. Check the output from this script, which is piped to `log-jupyter-{jobid}.log`. You can check the job ID by running `mj` (short for my job) to see what jobs of yours are in the queue. Any errors will also be sent to this log.
+
+NOTE: `mj` doesn't work for me.
+
 3. Copy the line that has a format like `ssh -N -f -L remote-port:remote server:remote-port user@hydra.whoi.edu`, which show the port the server is running on, and the node it is using on Hydra. Paste it into a new terminal window on your local machine and run. (See [this screenshot](https://github.com/anthony-meza/WHOI-PO-HPC/blob/official_pilot_workshop/figures/jupyter_screenshot.jpg) for more details.)
 4. Locate the url in the file `log-jupyter-{jobid}.log` that begins with ``http://127.0.0.1:remote-port....``. Copy this url and paste it into a browser and your notebook should pop up!
 
